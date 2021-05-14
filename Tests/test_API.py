@@ -1,5 +1,5 @@
 import unittest
-from main.py import read_plan
+
 
 TESTDATA_FILENAME = os.path.join(os.path.dirname(__file__), 'planning.log')
 
