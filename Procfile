@@ -1,1 +1,1 @@
-web: gunicorn back.app:app-pav
+web: gunicorn back app:app
