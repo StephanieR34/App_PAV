@@ -35,10 +35,10 @@ jobs:
         
       - name: auto pdoc
         run: |
-          pdoc3 --html -o tmp .
+          pdoc3 --html -o tmp back/functions/
           rm -rf docs
           mkdir -p docs/
-          mv tmp/app_PAV/* docs/
+          mv tmp/back/functions/* docs/
           rm -rf tmp/
 
       #- name: Commit files
