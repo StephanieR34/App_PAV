@@ -31,7 +31,9 @@ import logging
 import os
 from .functions import user_account
 
+
 app = Flask(__name__)
+
 
 @app.route(&#39;/&#39;)
 def main():
@@ -41,7 +43,7 @@ def main():
 if __name__ == &#39;__main__&#39;:
     logging.basicConfig(filename=&#34;prog.log&#34;, level=logging.DEBUG)
     port = int(os.environ.get(&#39;PORT&#39;, 5000))
-    app.run(host=&#39;0.0.0.0&#39;,port=port)</code></pre>
+    app.run(host=&#39;0.0.0.0&#39;, port=port)</code></pre>
 </details>
 </section>
 <section>
